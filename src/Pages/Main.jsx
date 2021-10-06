@@ -23,7 +23,7 @@ const Main = () => {
             </div>
 
             <div>
-                <div id = "btnarea">
+                <div id = "btnarea" uk-scrollspy="target: > .t; cls: uk-animation-slide-bottom-small; delay: 200">
                     <div className = "t">
                         <button class="uk-button uk-button-danger uk-button-large t" type = "button">Reactionary</button>
                         <div uk-drop="pos: top">
@@ -61,6 +61,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+            <footer style = {{ position: 'absolute', bottom: '0', display: 'block', width: '100vw', textAlign: 'center' }}>Made by Gabe Krahulik</footer>
         </div>
     )
 }
