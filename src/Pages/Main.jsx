@@ -15,7 +15,7 @@ const Main = () => {
 			return (
 				<div className = "t">
 						<button class={`uk-button uk-button-${type} uk-button-large t`} type = "button">{ name }</button>
-						<div uk-drop="pos: top; offset: 50">
+						<div uk-drop="pos: top; offset: 50; mode: click">
 								<div class="uk-card uk-card-body uk-card-default">
 										{text}
 								</div>
@@ -44,10 +44,10 @@ const Main = () => {
 
             <div>
                 <div id = "btnarea" uk-scrollspy="target: > .t; cls: uk-animation-scale-up; delay: 250">
-                    <Button name = "Reactionary" type = "danger" text = {chosen.views.reactionary} />
-                    <Button name = "Conservative" type = "danger" text = {chosen.views.conservative} />
-                    <Button name = "Liberal" type = "primary" text = {chosen.views.liberal} />
                     <Button name = "Radical" type = "primary" text = {chosen.views.radical} />
+                    <Button name = "Liberal" type = "primary" text = {chosen.views.liberal} />
+                    <Button name = "Conservative" type = "danger" text = {chosen.views.conservative} />
+                    <Button name = "Reactionary" type = "danger" text = {chosen.views.reactionary} />
                 </div>
             </div>
             <footer className = "uk-animation-slide-bottom">Made by Gabe Krahulik</footer>
