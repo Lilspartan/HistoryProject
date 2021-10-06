@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'Staatliches', cursive;
+  padding-top: 50px;
+}
+
+.uk-select {
+  border-radius: 5px;
+  background-color: #111111;
+  border: 0px;
+  color: white;
+}
+
+.uk-select:focus {
+  background-color: #111111;
+  color: white;
+}
+
+.t {
+  margin: auto;
+  min-width: 20vw;
+  font-size: 32px;
+  border-radius: 5px;
+}
+
+#btnarea {
+  position: absolute;
+  top: 60vh;
+  width: 100vw;
+  display: flex;
+}
+
+.uk-card {
+  font-size: 24px;
 }
