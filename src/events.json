@@ -3,20 +3,20 @@
         "name": "Climate Change",
         "id": "climate",
         "views": {
-            "radical": "Remove all current infrastructure and rebuild everything to be climate friendly",
-            "liberal": "Slowly integrate eco-friendly technologies into existing areas",
-            "conservative": "Climate change doesn't exist...",
-            "reactionary": "Go back to more fossil fuels and release more carbon"
+            "radical": "The only way to properly prevent serious climate change, is to forcefully implement carbon neutral technologies everywhere.",
+            "liberal": "We can slowly pass legislation that subtly encourages companies to move towards carbon neutral technologies.",
+            "conservative": "There's no need to force any person or company to change since climate change does not exist/is not as bad as people say.",
+            "reactionary": "Forcing companies and people to use certain technologies or not participate in certain practices for the climate is not the government's place, instead we should go back to an unregulated fossil fuel market."
         }
     },
     {
         "name": "Train Infrastructure",
         "id": "trains",
         "views": {
-            "radical": "Demolish all the existing railways and rehuild them to be more efficient",
-            "liberal": "Slowly build new rail systems and integrate with existing infrastructure",
-            "conservative": "The trains work fine",
-            "reactionary": "Trains worked better in the past and we should phase out electric trains"
+            "radical": "The current train systems are out of date and can't be saved, we need to tear it all down and start over with better technology.",
+            "liberal": "We can slowly integrate new technology into the older train systems, and over time create better infrastructure.",
+            "conservative": "There are not any problems with the current train systems.",
+            "reactionary": "Trains worked better in the past and we should phase out electric trains."
         }
     },
     {
@@ -24,12 +24,19 @@
         "id": "school",
         "views": {
             "radical": "In order to make the school systems better, we need to rethink how we teach. We need to remove the current system in order to create a better one.",
-            "liberal": "We need to slowly develop new cirriculums to increase the quality of the existing school system.",
+            "liberal": "We need to develop new cirriculums to increase the quality of the existing school system.",
             "conservative": "The way that schools work currently works perfectly, changing it  would cause too much confusion anyways.",
             "reactionary": "Schools worked better in the past, and the new reforms we've put in place have only ruined it more."
         }
     },
     {
-        "name": ""
+        "name": "test",
+				"id": "test",
+				"views": {
+					"radical": "Test1",
+					"liberal": "Test2",
+					"conservative": "Test3",
+					"reactionary": "Test4"
+				}
     }
 ]
